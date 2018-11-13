@@ -373,3 +373,57 @@ LogInit: Object subsystem initialized
 [2018.11.13-19.07.56:975][892]LogStats:                    SendNewReport -  1.988 s
 [2018.11.13-19.07.56:975][892]LogStats:             FDebug::EnsureFailed -  3.214 s
 [2018.11.13-19.07.56:991][892]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-19.08.19:476][892]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.13-19.08.19:871][892]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-19.08.20:309][892]SourceControl: On branch master
+[2018.11.13-19.08.20:309][892]SourceControl: Changes not staged for commit:
+[2018.11.13-19.08.20:309][892]SourceControl: 	modified:   MyProject/Saved/Logs/MyProject.log
+[2018.11.13-19.08.20:309][892]SourceControl: Untracked files:
+[2018.11.13-19.08.20:309][892]SourceControl: 	MyProject/Saved/Crashes/
+[2018.11.13-19.08.20:309][892]SourceControl: 	MyProject/Saved/Logs/Git-TempD86A557C4B30067E9E1947BE31083655.txt
+[2018.11.13-19.08.20:309][892]SourceControl: no changes added to commit
+[2018.11.13-19.08.25:557][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-19.23.33:686][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-19.24.02:221][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.13-19.24.02:724][367]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2018.11.13-19.24.04:821][612]Cmd: DELETE
+[2018.11.13-19.24.04:821][612]Cmd: ACTOR DELETE
+[2018.11.13-19.24.04:826][612]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.11.13-19.24.04:845][612]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.11.13-19.24.06:546][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.13-19.24.07:325][903]Cmd: DELETE
+[2018.11.13-19.24.07:326][903]Cmd: ACTOR DELETE
+[2018.11.13-19.24.07:327][903]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.13-19.24.07:347][903]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.11.13-19.24.08:238][ 10]Cmd: TRANSACTION UNDO
+[2018.11.13-19.24.08:238][ 10]LogEditorTransaction: Undo Delete Actors
+[2018.11.13-19.24.08:270][ 10]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.13-19.24.11:305][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-19.24.11:856][426]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.13-19.24.11:856][426]Can't find target actor or component.
+[2018.11.13-19.24.14:531][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.13-19.24.15:901][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-19.24.23:652][788]LogEditorActor: Deleted Actor: DocumentationActor
+[2018.11.13-19.24.23:671][788]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.11.13-19.24.30:480][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2018.11.13-19.24.42:237][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-19.24.58:450][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-19.25.14:066][755]LogActorFactory: Actor Factory created Wall_500x500
+[2018.11.13-19.25.15:328][898]LogActorFactory: Actor Factory created Wall_500x500
+[2018.11.13-19.25.15:486][911]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.13-19.25.45:716][250]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.13-19.25.54:093][274]LogSavePackage: Moving '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/Saved/ThirdPersonExampleMap_Auto136F80DD441385E0B61A14280122A646E.tmp' to '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.11.13-19.25.54:101][274]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.147
+[2018.11.13-19.25.54:101][274]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.147
+[2018.11.13-19.26.03:568][303]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-19.26.53:523][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.13-19.26.54:289][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-19.26.54:901][325]LogSlate: Window 'Source Control Login' being destroyed
+[2018.11.13-19.26.57:696][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2018.11.13-19.26.58:774][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-19.27.00:694][987]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.13-19.27.00:963][987]EditorErrors: Warning: No assets to check in!
+[2018.11.13-19.27.03:133][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-19.27.07:582][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.13-19.27.10:606][121]LogSlate: Window 'Message Log' being destroyed
+[2018.11.13-19.27.10:611][121]LogSlate: Window 'Message Log' being destroyed
