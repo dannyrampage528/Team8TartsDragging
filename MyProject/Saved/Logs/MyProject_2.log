@@ -1,4 +1,4 @@
-﻿Log file open, 11/14/18 20:43:24
+﻿Log file open, 11/13/18 12:47:51
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.312306
+LogStats: Stats thread started at 0.314612
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -92,7 +92,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.150s to configure plugins.
+LogStreaming: Display: Took  0.142s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -122,7 +122,7 @@ LogInit: Compiled (64-bit): Jul 14 2018 09:51:14
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal  -epicusername="DannyRampage528" -epicuserid=cff4302419484e1a8c5d0b7449716481 -epiclocale=en-US
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -146,455 +146,185 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.15-03.43.24:932][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.15-03.43.24:932][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.15-03.43.24:953][  0]LogHAL: Display: Platform has ~ 32 GB [34294435840 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.15-03.43.24:953][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.15-03.43.24:953][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.15-03.43.24:953][  0]LogInit: Computer: eae-d-069
-[2018.11.15-03.43.24:953][  0]LogInit: User: u0998107
-[2018.11.15-03.43.24:953][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.15-03.43.24:953][  0]LogInit: High frequency timer resolution =3.320312 MHz
-[2018.11.15-03.43.24:954][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.11.15-03.43.24:954][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.15-03.43.24:954][  0]LogMemory: Process Physical Memory: 101.23 MB used, 101.23 MB peak
-[2018.11.15-03.43.24:954][  0]LogMemory: Process Virtual Memory: 89.49 MB used, 89.49 MB peak
-[2018.11.15-03.43.24:954][  0]LogMemory: Physical Memory: 9285.23 MB used,  23420.49 MB free, 32705.72 MB total
-[2018.11.15-03.43.24:954][  0]LogMemory: Virtual Memory: 4638.75 MB used,  23420.49 MB free, 134217728.00 MB total
-[2018.11.15-03.43.24:981][  0]LogInit: Using OS detected language (en-US).
-[2018.11.15-03.43.24:981][  0]LogInit: Using OS detected locale (en-US).
-[2018.11.15-03.43.24:983][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.15-03.43.25:360][  0]LogStreaming: Display: Took  0.378s to InitEngineTextLocalization.
-[2018.11.15-03.43.25:360][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.15-03.43.25:415][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.15-03.43.25:415][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.15-03.43.25:658][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.15-03.43.25:658][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.15-03.43.25:733][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.11.15-03.43.25:733][  0]LogD3D11RHI:       8088/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.11.15-03.43.25:735][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.15-03.43.25:735][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.15-03.43.25:735][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.15-03.43.25:746][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.15-03.43.25:746][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.15-03.43.25:746][  0]LogWindows: EnumDisplayDevices:
-[2018.11.15-03.43.25:747][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.11.15-03.43.25:747][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.11.15-03.43.25:748][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.11.15-03.43.25:748][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.11.15-03.43.25:748][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.15-03.43.25:748][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.11.15-03.43.25:748][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
-[2018.11.15-03.43.25:748][  0]LogD3D11RHI:      Driver Date: 6-24-2018
-[2018.11.15-03.43.25:748][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2018.11.15-03.43.25:799][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.15-03.43.25:818][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.15-03.43.25:905][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Intermediate/Shaders/WorkingDirectory/12120/).
-[2018.11.15-03.43.25:905][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u0998107/AppData/Local/Temp/UnrealShaderWorkingDir/694C036A462F5B0D1D4C5FBFB64F88DE/'.
-[2018.11.15-03.43.26:199][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.15-03.43.26:214][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.15-03.43.26:230][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.15-03.43.26:245][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.15-03.43.26:261][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.15-03.43.26:276][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.15-03.43.26:293][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.15-03.43.26:310][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.15-03.43.26:319][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-03.43.26:400][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.15-03.43.26:463][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.15-03.43.26:463][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.15-03.43.26:487][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.15-03.43.26:487][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.15-03.43.26:504][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.15-03.43.26:517][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.15-03.43.26:531][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.15-03.43.26:546][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.15-03.43.26:556][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.15-03.43.26:556][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.15-03.43.26:655][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.15-03.43.26:655][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.15-03.43.26:655][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.15-03.43.27:441][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.15-03.43.27:528][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/u0998107/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.15-03.43.27:529][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u0998107/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.15-03.43.27:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.15-03.43.27:529][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.15-03.43.27:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.15-03.43.27:529][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.15-03.43.27:542][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.15-03.43.27:553][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0998107/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.15-03.43.27:553][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.15-03.43.27:553][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.15-03.43.27:573][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.15-03.43.27:574][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.15-03.43.27:575][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.15-03.43.27:653][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2018.11.15-03.43.28:017][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.15-03.43.28:170][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.15-03.43.28:176][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.15-03.43.28:176][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.15-03.43.28:176][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.15-03.43.28:176][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.15-03.43.28:195][  0]LogNetVersion: MyProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1110078900)
-[2018.11.15-03.43.28:744][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.114025 seconds
-[2018.11.15-03.43.28:750][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.15-03.43.28:750][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.11.15-03.43.28:750][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.15-03.43.29:743][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.15-03.43.29:757][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.15-03.43.29:924][  0]SourceControl: Source control is disabled
-[2018.11.15-03.43.29:924][  0]SourceControl: Source control is disabled
-[2018.11.15-03.43.29:926][  0]SourceControl: Source control is disabled
-[2018.11.15-03.43.29:927][  0]SourceControl: Source control is disabled
-[2018.11.15-03.43.30:103][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.15-03.43.30:193][  0]LogOcInput: OculusInput pre-init called
-[2018.11.15-03.43.30:261][  0]LogEngine: Initializing Engine...
-[2018.11.15-03.43.30:262][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.15-03.43.30:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.15-03.43.30:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.15-03.43.30:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.15-03.43.30:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.15-03.43.30:488][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.15-03.43.30:509][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.15-03.43.30:539][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.15-03.43.30:557][  0]LogInit: FAudioDevice initialized.
-[2018.11.15-03.43.30:558][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.15-03.43.30:650][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/u0998107/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.15-03.43.30:675][  0]LogInit: Texture streaming: Enabled
-[2018.11.15-03.43.30:701][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.15-03.43.30:725][  0]LogInit: Transaction tracking system initialized
-[2018.11.15-03.43.30:770][  0]BlueprintLog: New page: Editor Load
-[2018.11.15-03.43.30:897][  0]LocalizationService: Localization service is disabled
-[2018.11.15-03.43.31:194][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.15-03.43.31:194][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.15-03.43.31:194][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.15-03.43.31:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.15-03.43.31:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.15-03.43.31:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.15-03.43.31:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.15-03.43.31:366][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Content/' took 0.02s
-[2018.11.15-03.43.31:366][  0]SourceControl: Source control is disabled
-[2018.11.15-03.43.31:366][  0]LightingResults: New page: Lighting Build
-[2018.11.15-03.43.31:371][  0]MapCheck: New page: Map Check
-[2018.11.15-03.43.31:371][  0]LightingResults: New page: Lighting Build
-[2018.11.15-03.43.31:901][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.15-03.43.31:910][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.15-03.43.31:934][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.15-03.43.32:046][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 112.113ms to complete.
-[2018.11.15-03.43.32:046][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.681
-[2018.11.15-03.43.32:157][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-03.43.32:163][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-03.43.32:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-03.43.32:177][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-03.43.32:188][  0]LogCollectionManager: Loaded 0 collections in 0.003806 seconds
-[2018.11.15-03.43.32:235][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Saved/Collections/' took 0.01s
-[2018.11.15-03.43.32:235][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Content/Developers/u0998107/Collections/' took 0.01s
-[2018.11.15-03.43.32:235][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Content/Collections/' took 0.01s
-[2018.11.15-03.43.32:235][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.15-03.43.32:245][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2582 classes and 610 folders.
-[2018.11.15-03.43.32:256][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.15-03.43.32:338][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.11.15-03.43.32:351][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.15-03.43.32:356][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.15-03.43.32:359][  0]LogSlate: Took 0.000401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.15-03.43.32:437][  0]LogRenderer: Reallocating scene render targets to support 1208x604 Format 10 NumSamples 1 (Frame:1).
-[2018.11.15-03.43.32:558][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.15-03.43.32:558][  0]LogLoad: (Engine Initialization) Total time: 10.57 seconds
-[2018.11.15-03.43.32:558][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.15-03.43.32:567][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.15-03.43.32:588][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.15-03.43.32:647][  1]LogRenderer: Reallocating scene render targets to support 1208x620 Format 10 NumSamples 1 (Frame:3).
-[2018.11.15-03.43.32:662][  1]LogAssetRegistry: Asset discovery search completed in 5.0309 seconds
-[2018.11.15-03.43.32:664][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.11.15-03.43.32:664][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
-[2018.11.15-03.43.33:592][107]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.15-03.43.52:082][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-03.43.52:415][250]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.15-03.44.57:264][  2]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.11.15-03.45.15:435][785]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.11.15-03.45.15:435][785]Can't find target actor or component.
-[2018.11.15-03.45.16:629][927]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2018.11.15-03.45.17:301][984]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.11.15-03.45.26:090][719]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.15-03.45.40:386][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-03.45.40:555][761]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/DannyBP/FirstPersonStuff.FirstPersonStuff
-[2018.11.15-03.45.40:978][761]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.11.15-03.45.43:690][895]LogRenderer: Reallocating scene render targets to support 1356x912 Format 10 NumSamples 1 (Frame:101).
-[2018.11.15-03.45.43:942][925]LogSlate: Window 'FirstPersonStuff*' being destroyed
-[2018.11.15-03.45.48:430][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-03.45.55:807][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-03.47.10:842][ 53]LogSlate: Took 0.006222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.11.15-03.48.07:578][641]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.15-03.51.59:531][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-03.52.06:614][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.11.15-03.52.07:333][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-03.52.08:605][287]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2018.11.15-03.52.10:445][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-03.52.20:667][923]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.15-03.52.26:768][425]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.15-03.53.10:165][ 78]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.11.15-03.53.15:497][486]LogSlate: Window 'Delete Assets' being destroyed
-[2018.11.15-03.53.26:764][825]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2018.11.15-03.53.28:727][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-03.53.37:682][902]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2018.11.15-03.53.52:080][842]LogSlate: Window 'ThirdPersonCharacter' being destroyed
-[2018.11.15-03.54.52:973][593]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.027
-[2018.11.15-03.54.52:976][593]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2018.11.15-03.54.52:991][593]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2018.11.15-03.54.52:991][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2018.11.15-03.54.53:103][593]LogSavePackage: Moving '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Saved/ThirdPersonCharacter_Auto1849F074544A280A91460258FBB42C2ED.tmp' to '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
-[2018.11.15-03.54.53:106][593]LogFileHelpers: Auto-saving content packages took 0.132
-[2018.11.15-03.56.36:704][123]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.11.15-03.56.36:769][123]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
-[2018.11.15-03.56.36:769][123]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.15-03.56.36:769][123]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2018.11.15-03.56.36:769][123]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.15-03.56.36:773][123]LogTemp: BranchPath = eae-d-069/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = eae-d-069/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2018.11.15-03.56.36:798][124]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\u0998107\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.11.15-03.58.03:880][121]LogSlate: Window 'Project Settings' being destroyed
-[2018.11.15-03.58.03:885][121]LogSlate: Window 'Project Settings' being destroyed
-[2018.11.15-04.03.23:045][389]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.15-04.03.23:065][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.15-04.03.23:065][389]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.11.15-04.03.23:087][389]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
-[2018.11.15-04.03.23:404][389]LogPlayLevel: PlayLevel: Blueprint regeneration took 339 ms (1 blueprints)
-[2018.11.15-04.03.23:416][389]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 14, 2018, 2:03:23 PM)
-[2018.11.15-04.03.23:416][389]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.15-04.03.23:453][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036451s)
-[2018.11.15-04.03.23:454][389]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.15-04.03.23:454][389]LogPlayLevel: PIE: World Init took: (0.000939s)
-[2018.11.15-04.03.23:454][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037576s)
-[2018.11.15-04.03.23:535][389]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.15-04.03.23:548][389]LogInit: FAudioDevice initialized.
-[2018.11.15-04.03.23:560][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-04.03.23:633][389]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.15-04.03.23:636][389]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.14-21.03.23
-[2018.11.15-04.03.23:636][389]LogWorld: Bringing up level for play took: 0.001938
-[2018.11.15-04.03.23:664][389]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2018.11.15-04.03.23:665][389]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.492
-[2018.11.15-04.03.23:665][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.15-04.03.26:037][642]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
-[2018.11.15-04.03.27:571][826]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
-[2018.11.15-04.03.27:772][850]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
-[2018.11.15-04.03.28:230][905]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.15-04.03.28:231][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-04.03.28:249][905]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.11.15-04.03.28:279][905]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.15-04.03.28:280][905]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.15-04.03.28:336][906]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2018.11.15-04.03.39:895][282]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.11.15-04.03.40:723][325]LogSavePackage: Moving '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Saved/ThirdPersonCharacter0CBF97D1441184C4C3824D92B1C88B5B.tmp' to '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.11.15-04.03.41:636][431]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.15-04.03.41:679][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.15-04.03.41:679][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.15-04.03.41:679][431]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 14, 2018, 2:03:41 PM)
-[2018.11.15-04.03.41:679][431]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.11.15-04.03.41:695][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015708s)
-[2018.11.15-04.03.41:696][431]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.15-04.03.41:696][431]LogPlayLevel: PIE: World Init took: (0.000695s)
-[2018.11.15-04.03.41:696][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016531s)
-[2018.11.15-04.03.41:750][431]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.15-04.03.41:762][431]LogInit: FAudioDevice initialized.
-[2018.11.15-04.03.41:774][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-04.03.41:817][431]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.15-04.03.41:820][431]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.14-21.03.41
-[2018.11.15-04.03.41:820][431]LogWorld: Bringing up level for play took: 0.002364
-[2018.11.15-04.03.41:834][431]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.66
-[2018.11.15-04.03.41:834][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.15-04.03.48:139][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.15-04.03.48:139][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-04.03.48:157][160]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.11.15-04.03.48:212][160]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.15-04.03.48:212][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.11.15-04.03.48:346][161]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2018.11.15-04.04.02:526][832]LogAIModule: Creating AISystem for world Gym_2
-[2018.11.15-04.04.02:531][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:531][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:531][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:531][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:531][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:531][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:532][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:532][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:532][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:533][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:533][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:533][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:534][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:534][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:534][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:534][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:534][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:534][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:535][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:535][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:535][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:535][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:535][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:535][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:536][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:537][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:537][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:537][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:537][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.02:537][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.02:542][832]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Gym_2.Gym_2
-[2018.11.15-04.04.04:353][832]LogSlate: Window 'Save Content' being destroyed
-[2018.11.15-04.04.04:689][832]LogSavePackage: Moving '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Saved/ThirdPersonExampleMapE71771BB426A04B8766BBDB5553C689A.tmp' to '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.11.15-04.04.04:722][832]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.363
-[2018.11.15-04.04.04:723][832]Cmd: MAP LOAD FILE="../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Content/ThirdPersonBP/Gym_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.15-04.04.04:723][832]LightingResults: New page: Lighting Build
-[2018.11.15-04.04.04:723][832]LoadErrors: New page: Loading map: Gym_2.umap
-[2018.11.15-04.04.04:724][832]MapCheck: New page: Map Check
-[2018.11.15-04.04.04:724][832]LightingResults: New page: Lighting Build
-[2018.11.15-04.04.04:755][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:755][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:755][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:756][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:756][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:756][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline2.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:757][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:757][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:758][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:758][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:758][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:758][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline3.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:759][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:760][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:760][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:760][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:760][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:760][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline4.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:761][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:761][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:762][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:762][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:762][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:762][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:763][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:763][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:763][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:764][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:764][832]LogScript: Warning: Attempted to access index 4 from array K2Node_MakeArray_Array1 of length 1!
-	zipline_C /Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5
-	Function /Game/ThirdPersonBP/Blueprints/zipline1_Original.zipline_C:UserConstructionScript:018E
-[2018.11.15-04.04.04:764][832]PIE: Warning: AttachTo: '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.zipline_5.DefaultSceneRoot' root component cannot be attached to other components in the same actor. Aborting.
-[2018.11.15-04.04.04:765][832]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.15-04.04.04:815][832]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.15-04.04.04:939][832]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.338ms to complete.
-[2018.11.15-04.04.04:949][832]LogFileHelpers: Loading map 'Gym_2' took 0.227
-[2018.11.15-04.04.11:517][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-04.04.13:184][807]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.15-04.04.13:226][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.Gym_2' with GeneratedClass '/Game/ThirdPersonBP/Gym_2.Gym_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.Gym_2'
-[2018.11.15-04.04.13:226][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.15-04.04.13:226][807]PIE: New page: PIE session: Gym_2 (Nov 14, 2018, 2:04:13 PM)
-[2018.11.15-04.04.13:226][807]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/UEDPIE_0_Gym_2
-[2018.11.15-04.04.13:260][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033960s)
-[2018.11.15-04.04.13:261][807]LogAIModule: Creating AISystem for world Gym_2
-[2018.11.15-04.04.13:261][807]LogPlayLevel: PIE: World Init took: (0.000710s)
-[2018.11.15-04.04.13:261][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Gym_2.Gym_2 to /Game/ThirdPersonBP/UEDPIE_0_Gym_2.Gym_2 (0.034808s)
-[2018.11.15-04.04.13:316][807]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.15-04.04.13:327][807]LogInit: FAudioDevice initialized.
-[2018.11.15-04.04.13:338][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-04.04.13:379][807]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.15-04.04.13:383][807]LogWorld: Bringing World /Game/ThirdPersonBP/UEDPIE_0_Gym_2.Gym_2 up for play (max tick rate 0) at 2018.11.14-21.04.13
-[2018.11.15-04.04.13:384][807]LogWorld: Bringing up level for play took: 0.003592
-[2018.11.15-04.04.13:397][807]PIE: Play in editor start time for /Game/ThirdPersonBP/UEDPIE_0_Gym_2 0.224
-[2018.11.15-04.04.13:398][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.Gym_2' with GeneratedClass '/Game/ThirdPersonBP/Gym_2.Gym_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.Gym_2'
-[2018.11.15-04.04.19:360][499]Set new viewmode: Wireframe
-[2018.11.15-04.04.20:385][622]Set new viewmode: Lit
-[2018.11.15-04.04.20:878][681]Set new viewmode: Lit_DetailLighting
-[2018.11.15-04.04.21:310][731]Set new viewmode: Lit
-[2018.11.15-04.04.21:586][764]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.Gym_2' with GeneratedClass '/Game/ThirdPersonBP/Gym_2.Gym_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.Gym_2'
-[2018.11.15-04.04.21:586][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-04.04.21:606][764]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.11.15-04.04.21:665][764]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.15-04.04.21:665][764]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.Gym_2' with GeneratedClass '/Game/ThirdPersonBP/Gym_2.Gym_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Gym_2.Gym_2:PersistentLevel.Gym_2'
-[2018.11.15-04.04.21:803][765]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.11.15-04.04.27:983][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.15-04.04.28:549][545]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.11.15-04.04.35:805][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.15-04.04.36:084][246]LogSavePackage: Moving '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Saved/Gym_28B5A5AF141079BF69C6B51AF9EA0FC5D.tmp' to '../../../../../../Users/u0998107/Documents/GitHub/Team8TartsWorkingDrag/Team8TartsDragging/MyProject/Content/ThirdPersonBP/Gym_2.umap'
-[2018.11.15-04.04.39:555][585]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.11.15-04.04.39:555][585]LogWindows: Warning: URL: D:/Program Files/Git/bin/git.exe version
-[2018.11.15-04.05.20:442][326]SourceControl: Source control is disabled
-[2018.11.15-04.05.20:442][326]LogSlate: Window 'Source Control Login' being destroyed
+[2018.11.13-19.47.52:279][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.13-19.47.52:279][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.13-19.47.52:292][  0]LogHAL: Display: Platform has ~ 32 GB [34294435840 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.13-19.47.52:292][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.13-19.47.52:292][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.13-19.47.52:293][  0]LogInit: Computer: eae-d-069
+[2018.11.13-19.47.52:293][  0]LogInit: User: u0998107
+[2018.11.13-19.47.52:293][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.13-19.47.52:293][  0]LogInit: High frequency timer resolution =3.320312 MHz
+[2018.11.13-19.47.52:293][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.11.13-19.47.52:293][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.13-19.47.52:293][  0]LogMemory: Process Physical Memory: 99.75 MB used, 99.75 MB peak
+[2018.11.13-19.47.52:293][  0]LogMemory: Process Virtual Memory: 91.10 MB used, 91.10 MB peak
+[2018.11.13-19.47.52:293][  0]LogMemory: Physical Memory: 8479.40 MB used,  24226.32 MB free, 32705.72 MB total
+[2018.11.13-19.47.52:293][  0]LogMemory: Virtual Memory: 4640.32 MB used,  24226.32 MB free, 134217728.00 MB total
+[2018.11.13-19.47.52:318][  0]LogInit: Using OS detected language (en-US).
+[2018.11.13-19.47.52:318][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.13-19.47.52:319][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.13-19.47.52:719][  0]LogStreaming: Display: Took  0.401s to InitEngineTextLocalization.
+[2018.11.13-19.47.52:719][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.13-19.47.52:754][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.13-19.47.52:754][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.13-19.47.52:996][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.13-19.47.52:996][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.13-19.47.53:060][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.11.13-19.47.53:060][  0]LogD3D11RHI:       8088/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.13-19.47.53:063][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.13-19.47.53:063][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.13-19.47.53:063][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.13-19.47.53:072][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.13-19.47.53:072][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.13-19.47.53:072][  0]LogWindows: EnumDisplayDevices:
+[2018.11.13-19.47.53:073][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.11.13-19.47.53:073][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.11.13-19.47.53:073][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.13-19.47.53:074][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.13-19.47.53:074][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.13-19.47.53:074][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.11.13-19.47.53:074][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.11.13-19.47.53:074][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.11.13-19.47.53:074][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.11.13-19.47.53:119][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.13-19.47.53:137][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.13-19.47.53:226][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/Intermediate/Shaders/WorkingDirectory/4008/).
+[2018.11.13-19.47.53:226][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u0998107/AppData/Local/Temp/UnrealShaderWorkingDir/764C6F424E4998F38A6F0582E83F66B7/'.
+[2018.11.13-19.47.53:544][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.13-19.47.53:559][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.13-19.47.53:575][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.13-19.47.53:590][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.13-19.47.53:606][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.13-19.47.53:621][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.13-19.47.53:636][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.13-19.47.53:651][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.13-19.47.53:660][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.13-19.47.53:738][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.13-19.47.53:801][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.13-19.47.53:801][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.13-19.47.53:827][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.13-19.47.53:827][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.13-19.47.53:843][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.13-19.47.53:855][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.13-19.47.53:868][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.13-19.47.53:881][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.13-19.47.53:891][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.13-19.47.53:891][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.13-19.47.53:986][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.13-19.47.53:986][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.13-19.47.53:986][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.13-19.47.54:815][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.13-19.47.54:901][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/u0998107/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.13-19.47.54:902][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u0998107/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.13-19.47.54:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.13-19.47.54:902][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.13-19.47.54:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.13-19.47.54:902][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.13-19.47.54:914][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.13-19.47.54:927][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0998107/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.13-19.47.54:927][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.13-19.47.54:927][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.13-19.47.54:945][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.13-19.47.54:946][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.13-19.47.54:947][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.13-19.47.55:026][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.11.13-19.47.55:378][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.13-19.47.55:517][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.13-19.47.55:523][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.13-19.47.55:523][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.13-19.47.55:523][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.13-19.47.55:523][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.13-19.47.55:542][  0]LogNetVersion: MyProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1110078900)
+[2018.11.13-19.47.56:079][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.113751 seconds
+[2018.11.13-19.47.56:085][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.13-19.47.56:085][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.13-19.47.56:085][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.13-19.47.57:031][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.13-19.47.57:044][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.13-19.47.57:211][  0]SourceControl: Source control is disabled
+[2018.11.13-19.47.58:155][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.13-19.47.58:262][  0]LogOcInput: OculusInput pre-init called
+[2018.11.13-19.47.58:328][  0]LogEngine: Initializing Engine...
+[2018.11.13-19.47.58:329][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.13-19.47.58:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.13-19.47.58:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.13-19.47.58:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.13-19.47.58:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.13-19.47.58:536][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.13-19.47.58:560][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.13-19.47.58:598][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.13-19.47.58:616][  0]LogInit: FAudioDevice initialized.
+[2018.11.13-19.47.58:617][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.13-19.47.58:776][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/u0998107/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.13-19.47.58:835][  0]LogInit: Texture streaming: Enabled
+[2018.11.13-19.47.58:870][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.13-19.47.58:896][  0]LogInit: Transaction tracking system initialized
+[2018.11.13-19.47.58:950][  0]BlueprintLog: New page: Editor Load
+[2018.11.13-19.47.59:107][  0]LocalizationService: Localization service is disabled
+[2018.11.13-19.47.59:412][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.13-19.47.59:412][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.13-19.47.59:412][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.13-19.47.59:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.13-19.47.59:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.13-19.47.59:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.13-19.47.59:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.13-19.47.59:582][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/Content/' took 0.02s
+[2018.11.13-19.47.59:582][  0]Cmd: MAP LOAD FILE="../../../../../../Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.13-19.47.59:582][  0]LightingResults: New page: Lighting Build
+[2018.11.13-19.47.59:587][  0]MapCheck: New page: Map Check
+[2018.11.13-19.47.59:587][  0]LightingResults: New page: Lighting Build
+[2018.11.13-19.48.00:047][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.13-19.48.00:056][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.13-19.48.00:079][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.13-19.48.00:193][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 113.904ms to complete.
+[2018.11.13-19.48.00:193][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.611
+[2018.11.13-19.48.00:317][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-19.48.00:330][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-19.48.00:341][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-19.48.00:349][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.13-19.48.00:363][  0]LogCollectionManager: Loaded 0 collections in 0.006204 seconds
+[2018.11.13-19.48.00:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/Saved/Collections/' took 0.01s
+[2018.11.13-19.48.00:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/Content/Developers/u0998107/Collections/' took 0.01s
+[2018.11.13-19.48.00:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0998107/Documents/GitHub/Team8TartsDragging/MyProject/Content/Collections/' took 0.01s
+[2018.11.13-19.48.00:411][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.13-19.48.00:421][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2582 classes and 610 folders.
+[2018.11.13-19.48.00:432][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.13-19.48.00:518][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.13-19.48.00:534][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.13-19.48.00:537][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.13-19.48.00:540][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.13-19.48.00:620][  0]LogRenderer: Reallocating scene render targets to support 1208x544 Format 10 NumSamples 1 (Frame:1).
+[2018.11.13-19.48.00:743][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.13-19.48.00:743][  0]LogLoad: (Engine Initialization) Total time: 11.47 seconds
+[2018.11.13-19.48.00:743][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.13-19.48.00:780][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.13-19.48.00:845][  0]LogRenderer: Reallocating scene render targets to support 1208x560 Format 10 NumSamples 1 (Frame:3).
+[2018.11.13-19.48.00:846][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.13-19.48.00:872][  1]LogAssetRegistry: Asset discovery search completed in 5.8685 seconds
+[2018.11.13-19.48.00:874][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.13-19.48.00:874][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2018.11.13-19.48.03:049][  8]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.13-19.48.04:732][190]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.13-19.48.04:994][190]EditorErrors: Warning: No assets to check in!
