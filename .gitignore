@@ -125,3 +125,4 @@ MyProject/Saved/Config/CrashReportClient/UE4CC-Windows-A1AE048F4FF8DAA7D75EC186F
 MyProject/Saved/Config/Windows/Engine.ini
 MyProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
 MyProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+*.log
